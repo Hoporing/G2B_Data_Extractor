@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    width: 250px;
+    padding: 15px;
+    background-color: #202124;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url('assets/CTEC.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px;
+}
+
+button {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    background-color: #585CA6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    width: 80%;
+    /* Include padding in width */
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #1D2088;
+    /* Slight lift effect */
+    transform: translateY(-1px);
+
+}
+
+button:active {
+    background-color: #0008ff;
+    transform: translateY(0);
+}
+
+p#status {
+    margin-top: 15px;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: white;
+    /* Prevent layout shift */
+    min-height: 20px;
+}
