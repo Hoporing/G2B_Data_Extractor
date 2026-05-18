@@ -60,6 +60,12 @@
 
 ### Installation
 
+**방법 1 — Chrome Web Store (권장)**
+
+[<img src="https://img.shields.io/badge/Chrome%20Web%20Store-설치하기-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Web Store">](https://chromewebstore.google.com/detail/g2b-data-extractor/pmpbpbjaipbhkegompfglgomakbinimn)
+
+**방법 2 — 수동 설치 (개발자)**
+
 1. 이 Repository를 Clone 또는 ZIP 다운로드
 ```bash
 git clone https://github.com/Hoporing/G2B_Data_Extractor.git
