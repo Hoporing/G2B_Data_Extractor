@@ -92,6 +92,9 @@ git clone https://github.com/Hoporing/G2B_Data_Extractor.git
 | Product Code | 물품식별번호 |
 | Item | 상품명 |
 | Manufacturer | 제조사 |
+| Model | 모델명 |
+| Option | 옵션 (없는 경우 공백) |
+| Price | 단가 |
 
 ---
 
@@ -108,4 +111,4 @@ git clone https://github.com/Hoporing/G2B_Data_Extractor.git
 
 ## License
 
-MIT License
+Apache License 2.0
