@@ -1,0 +1,23 @@
+Privacy Policy for G2B Data Extractor
+
+Last Updated: August 14, 2025
+
+Thank you for using G2B Data Extractor. This privacy policy explains how our extension handles your data.
+
+1. Data We Access
+When you activate the extension on the G2B shopping mall website (shop.g2b.go.kr), it reads the content of that specific webpage. This is necessary to extract the product and pricing information you wish to save.
+
+2. How We Use Your Data
+The data accessed from the webpage is used for one single purpose: to generate an Excel (.xlsx) file. This file is then downloaded directly to your computer for your own use.
+
+3. Data Storage and Transmission
+We take your privacy very seriously. The G2B Data Extractor extension:
+- Does NOT collect or store any of your personal information.
+- Does NOT transmit any data from your browser to our servers or any third-party servers.
+- All data processing occurs locally on your computer.
+
+4. Changes to This Policy
+We may update this privacy policy in the future. We will notify you of any changes by posting the new policy here.
+
+5. Contact Us
+If you have any questions about this privacy policy, please contact us at [rhleh96@gmail.com].

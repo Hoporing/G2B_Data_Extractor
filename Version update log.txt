@@ -1,0 +1,10 @@
+Version update log
+
+Version 1.0
+Initial Release
+
+Version 1.1
+Fixed a bug where the Excel file was being saved multiple times based on the cumulative count of feature executions
+
+Version 1.2
+Added support for selected items
