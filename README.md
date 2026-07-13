@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="docs/banner.png" alt="Hoporing Banner" width="100%">
+  <img src="assets/Yunsu_Hwang_Banner.png" alt="Banner" width="100%">
 
   <h3>나라장터 종합쇼핑몰 상품 Data 자동 추출 Chrome Extension</h3>
 
@@ -23,12 +23,12 @@
 
 ## Features
 
-| Feature | Description |
-|---------|-------------|
-| 자동 Data 추출 | 나라장터 상품 목록에서 Category, Product Code, Item, Manufacturer 자동 수집 |
-| Excel 저장 | 추출된 Data를 `.xlsx` 형식으로 즉시 다운로드 |
-| 단일 클릭 동작 | Extension Popup에서 버튼 한 번으로 전체 추출 완료 |
-| 페이지 자동 순회 | 목록 전체를 순차적으로 순회하여 전체 Data 수집 |
+| Feature     | Description                                                |
+| ----------- | ---------------------------------------------------------- |
+| 자동 Data 추출  | 나라장터 상품 목록에서 Category, Product Code, Item, Manufacturer 추출 |
+| Excel 저장    | 추출된 Data를 `.xlsx` 형식으로 즉시 Download                         |
+| 단일 Click 동작 | Extension Popup에서 Button 한 번으로 전체 추출 완료                    |
+| Page 자동 순회  | 목록 전체를 순차적으로 순회하여 전체 Data 수집                               |
 
 ---
 
@@ -36,8 +36,8 @@
 
 <table>
   <tr>
-    <td align="center"><b>Extension Popup</b><br><sub>Start Extraction 버튼 클릭</sub></td>
-    <td align="center"><b>추출 완료</b><br><sub>Excel 파일 자동 다운로드</sub></td>
+    <td align="center"><b>Extension Popup</b><br><sub>Start Extraction Button Click</sub></td>
+    <td align="center"><b>추출 완료</b><br><sub>Excel file Download</sub></td>
   </tr>
   <tr>
     <td align="center"><img src="docs/popup.png" alt="Popup UI" width="300"></td>
@@ -66,35 +66,35 @@
 
 **방법 2 — 수동 설치 (개발자)**
 
-1. 이 Repository를 Clone 또는 ZIP 다운로드
+1. 이 Repository Clone 또는 ZIP Download
 ```bash
 git clone https://github.com/Hoporing/G2B_Data_Extractor.git
 ```
 
 2. Chrome 브라우저에서 `chrome://extensions` 접속
 3. 우측 상단 **개발자 모드** 활성화
-4. **압축해제된 확장 프로그램을 로드합니다** → 다운로드한 폴더 선택
+4. **압축해제된 확장 프로그램을 로드합니다** → Download Folder 선택
 
 ### Usage
 
-1. [나라장터 종합쇼핑몰](https://shop.g2b.go.kr) 접속 후 상품 목록 페이지로 이동
-2. Chrome 우측 상단 Extension 아이콘 클릭
-3. **Start Extraction** 버튼 클릭
-4. 추출 완료 후 Excel 파일 자동 다운로드
+1. [나라장터 종합쇼핑몰](https://shop.g2b.go.kr) 접속 후 상품 목록 Page로 이동
+2. Click Extension Icon of Chrome
+3. Click **Start Extraction** Button
+4. 추출 완료 후 Excel file 자동 Download
 
 ---
 
 ## Output Format
 
-| Column | Description |
-|--------|-------------|
-| Category | 구매 방식 (별도구매 등) |
-| Product Code | 물품식별번호 |
-| Item | 상품명 |
-| Manufacturer | 제조사 |
-| Model | 모델명 |
-| Option | 옵션 (없는 경우 공백) |
-| Price | 단가 |
+| Column       | Description    |
+| ------------ | -------------- |
+| Category     | 구매 방식 (별도구매 등) |
+| Product Code | 물품식별번호         |
+| Item         | 상품명            |
+| Manufacturer | 제조사            |
+| Model        | 모델명            |
+| Option       | 옵션 (없는 경우 공백)  |
+| Price        | 단가             |
 
 ---
 
